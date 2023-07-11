@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>organic-draft</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
@@ -18,7 +18,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -26,298 +26,182 @@
 
 
     <main>
-      <!-- section1 -->
-      <section class="hero">
-        <div class="hero-main">
+    <section class="hero" id="hero">
+  <div class="container hero-container">
+    <!-- nex div for position its oll for 161 with girl -->
 
-          <ul>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            
-          </ul>
+    <div class="hero-container-wrapper">
+      <!-- wrapper girl-->
 
-          <h1 class="name">organic <span>vegetables</span>  to your diet today!</h1>
-
-          <p>Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
-          <button class="button" type="button" data-modal-open>
-            Shop now
-          </button>
-          <div>
-            <img src="" alt="">
-          </div>
-<ul>
-  <li><a href="">#organic</a></li>
-  <li><a href=""></a>#products</li>
-  <li><a href=""></a>#basket</li>
-  <li><a href=""></a>#vegetables</li>
-
-</ul>
-
-        </div>
-      </section>
-
-      <!-- section2-->
-      <!-- <section class="about-us">
-        <div class="div-section-two container">
-          <h2 class="visually-hidden">about us</h2>
-          <ul class="menu list">
-            <li class="list-aboutus">
-              <div class="icon-staff">
-                <svg class="icon-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-              </div>
-              <h3 class="about-us-menu">Strategy</h3>
-              <p class="description">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-
-            <li class="list-aboutus">
-              <div class="icon-staff">
-                <svg class="icon-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
-              <h3 class="about-us-menu">Punctuality</h3>
-              <p class="description">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p> -->
-            <!-- </li>
-
-            <li class="list-aboutus">
-              <div class="icon-staff">
-                <svg class="icon-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
-              <h3 class="about-us-menu">Diligence</h3>
-              <p class="description">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-
-            <li class="list-aboutus">
-              <div class="icon-staff">
-                <svg class="icon-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
-              <h3 class="about-us-menu">Technologies</h3>
-              <p class="description">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section> -->
-      <!-- section 3 -->
-      <!-- <section class="section-menu">
-        <div class="div-section-tree container">
-          <h2 class="feature-name">What are we doing</h2>
-          <ul class="feature-list list">
-            <li class="pictures">
-              <img
-                src="./images/imgone.jpg"
-                alt="monitor"
-                width="360"
-                height="300"
+      <div class="hero-main-list">
+        <ul class="hero-icons-list">
+          <li class="hero-list-item hero-position-one">
+            <picture class="hero-icon-media">
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/hero/mob-reviewer-1.webp    1x,
+                  ./img/hero/mob-reviewer-1@2x.webp 2x
+                "
               />
-            </li>
-            <li class="pictures">
-              <img
-                src="./images/imgtwo.jpg"
-                alt="phone"
-                width="360"
-                height="300"
+              <source
+                media="(max-width: 1279px)"
+                srcset="
+                  ./img/hero/desk-reviewer-1.webp    1x,
+                  ./img/hero/desk-reviewer-1@2x.webp 2x
+                "
               />
-            </li>
-            <li class="pictures">
-              <img
-                src="./images/imgtree.jpg"
-                alt="phone in hand"
-                width="360"
-                height="300"
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/hero/tab-reviewer-1.webp    1x,
+                  ./img/hero/tab-reviewer-1@2x.webp 2x
+                "
               />
-            </li>
-          </ul>
-        </div>
-      </section> -->
+              <img
+                src="./img/hero/mob-reviewer-1.webp"
+                alt="a first woman"
+                class="hero-icon-img"
+                width="40"
+                height="40"
+              />
+            </picture>
+          </li>
+          <li class="hero-list-item hero-position-two">
+            <picture class="hero-icon-media">
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/hero/mob-reviewer-2.webp    1x,
+                  ./img/hero/mob-reviewer-2@2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1279px)"
+                srcset="
+                  ./img/hero/desk-reviewer-2.webp    1x,
+                  ./img/hero/desk-reviewer-2@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/hero/tab-reviewer-2.webp    1x,
+                  ./img/hero/tab-reviewer-2@2x.webp 2x
+                "
+              />
+              <img
+                src="./img/hero/mob-reviewer-2.webp"
+                alt="a man"
+                class="hero-icon-img"
+                width="40"
+                height="40"
+              />
+            </picture>
+          </li>
+          <li class="hero-list-item hero-position-three">
+            <picture class="hero-icon-media">
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/hero/mob-reviewer-3.webp    1x,
+                  ./img/hero/mob-reviewer-3@2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1279px)"
+                srcset="
+                  ./img/hero/desk-reviewer-3.webp    1x,
+                  ./img/hero/desk-reviewer-3@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/hero/tab-reviewer-3.webp    1x,
+                  ./img/hero/tab-reviewer-3@2x.webp 2x
+                "
+              />
+              <img
+                src="./img/hero/mob-reviewer-3.webp"
+                alt="a sec woman"
+                class="hero-icon-img"
+                width="40"
+                height="40"
+              />
+            </picture>
+          </li>
+          <li class="hero-list-item hero-position-four">
+            <div class="hero-item-wrapper">
+              <p class="hero-item-text">2K</p>
+              <p class="hero-item-span">reviews</p>
+            </div>
+          </li>
+        </ul>
 
-     
-               
+        <h1 class="hero-title">
+          organic <span class="hero-span">vegetables</span> to your diet today!
+        </h1>
 
+        <p class="hero-descr">
+          Our expertly curated vegetable baskets are made with the freshest,
+          highest quality vegetables available. Fresh Harvest Box has got you
+          covered. Fresh, high-quality vegetables in expertly curated vegetable
+          baskets delivered to you.
+        </p>
 
-           
-         
-    </main>
-    <!-- footer -->
-    <footer class="footer">
-      <div class="footer-main container">
-        <div class="footer-div">
-          <a class="footer-web link" href="./index.html"
-            >web<span class="footer-logo">Studio</span>
-          </a>
-          <p class="text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-social">
-          <p class="text">Social media</p>
-          <ul class="footer-cosial-list">
-            <li class="circle">
-              <a class="footer-cosial-link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
-            </li>
-            <li class="circle">
-              <a class="footer-cosial-link" href=""
-                ><svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
-            </li>
-            <li class="circle">
-              <a class="footer-cosial-link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
-            </li>
-            <li class="circle">
-              <a class="footer-cosial-link" href=""
-                ><svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
-
-
-<div class="footer-div-input">
-  <p class="text-subscribe">Subscribe</p>
-
-  <form class="form-subscribe">
-
-    <label class="label-subscribe" for="subscribe">
-    
-      <input class="input-subscribe" type="email" id="subscribe" name="subscribe" placeholder="E-mail" />
-    </label>
-  
-    <button class="btn-subscribe" type="submit">Subscribe 
-      <svg class="subscribe-icon" width="24" height="24">
-        <use href="./images/symbol.svg#icon-icon-sendfly-1"></use></svg>
-    </button>
-  </form>
-
-</div>
-
+        <button class="hero-btn" type="button">Shop now</button>
       </div>
-    </footer>
 
-    <!-- modal window js -->
-
-    <div class="modal-window is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="close-window" data-modal-close>
-          <svg class="icon-close" width="8" height="8">
-            <use
-              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-1-1"
-            ></use>
-          </svg>
-        </button>
-
-        <p class="input-title">Leave your contacts and we will call you back</p>
-        <form class="form" name="issue_report_form" autocomplete="off">
-          <div class="label-main">
-            <label class="label-name" for="user-name" id="name">
-             Name </label>
-            <div class="input-conteiner">
-              <input
-                id="user-name" 
-                name="user-name"
-                class="form-input"
-                type="text"
-                placeholder=" "
-                autofocus
-              />
-              <svg class="input-icon" width="18" height="24">
-                <use href="./images/symbol.svg#icon-person-black-18dp-1"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="label-main">
-            <label class="label-name" for="phone"
-              >Phone</label
-            >
-            <div class="input-conteiner">
-              <input
-                id="phone"
-                class="form-input"
-                type="tel"
-                name="phone"
-                placeholder=" "
-              /><svg class="input-icon" width="18" height="24">
-                <use href="./images/symbol.svg#icon-phone-black-18dp-1"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="label-main">
-            <label class="label-name" for="Email"
-              >Email</label>
-            <div class="input-conteiner">
-              <input
-                class="form-input"
-                type="email"
-                name="Email"
-                id="Email"
-                placeholder=" "
-              /><svg class="input-icon" width="18" height="24">
-                <use href="./images/symbol.svg#icon-email-black-18dp-1"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="label-main-comment">
-            <label class="label-name" for="user-comment" >Comment
-            </label>
-            
-              <textarea
-                class="form-input-textarea"
-                name="user-comment" 
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            
-          </div>
-
-          <div class="privacy">
-            <input
-              class="input-checkbox visually-hidden"
-              id="user-privacy"
-              type="checkbox"
-              name="user-privacy"
-              value="true"
-            />
-            <label class="label-checkbox" for="user-privacy"
-              ><span class="text-checkbox"
-                ><svg class="icon-checkbox" width="10" height="8">
-                  <use
-                    href="./images/symbol.svg#icon-checkmark"
-                  ></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="privacy-link link" href="">Privacy Policy</a></label
-            >
-          </div>
-          <button class="form-button" type="submit">Send</button>
-        </form>
+      <div class="hero-image">
+        <picture class="hero-picture">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/hero/mob-woman.webp    1x,
+              ./img/hero/mob-woman@2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ./img/hero/tab-woman.webp    1x,
+              ./img/hero/tab-woman@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/hero/desk-woman.webp    1x,
+              ./img/hero/desk-woman@2x.webp 2x
+            "
+          />
+          <img
+            class="hero-photo"
+            src="./img/hero/mob-woman.webp"
+            alt="image9620"
+            width="278"
+            height="228"
+          />
+        </picture>
       </div>
     </div>
+    <ul class="hero-nav-list">
+      <li class="hero-nav-item hero-nav-active">
+        <a class="hero-nav-link hero-nav-active" href="">#organic</a>
+      </li>
+      <li class="hero-nav-item">
+        <a class="hero-nav-link" href="">#products</a>
+      </li>
+      <li class="hero-nav-item">
+        <a class="hero-nav-link" href="">#basket</a>
+      </li>
+      <li class="hero-nav-item">
+        <a class="hero-nav-link" href="">#vegetables</a>
+      </li>
+    </ul>
+  </div>
+</section>
 
     <script src="./js/modal.js"></script>
   </body>
